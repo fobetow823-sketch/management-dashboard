@@ -190,7 +190,7 @@ import {
 } from "@mui/material";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
-import ProfileDropdown from "./ProfileDropdown"; // ✅ dropdown
+import ProfileDropdown from "../components/Profiledropdown";
 
 export default function Header() {
   const [user, setUser] = useState(null);
