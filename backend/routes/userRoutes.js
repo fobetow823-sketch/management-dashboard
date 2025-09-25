@@ -3,7 +3,7 @@ import express from "express";
 import { verifyToken } from "../middleware/authMiddleware.js";
 import { createUser, getUsers, updateUser,getEmployees,updateProfileImage,deleteAccount } from "../controllers/userController.js";
 
-import upload from "../middleware/Upload.js";
+import upload from "../middleware/upload.js";
 
 
 const router = express.Router();
