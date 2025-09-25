@@ -39,9 +39,9 @@ const drawerWidth = 260;
 // ];
 const menuItems = [
   { text: "Dashboard", icon: <SpaceDashboardRoundedIcon />, path: "/dashboard" },
-  { text: "Project",   icon: <ViewKanbanRoundedIcon />,     path: "/project" },
+  { text: "Project",   icon: <ViewKanbanRoundedIcon />,     path: "/projects" },
   { text: "Users",     icon: <GroupRoundedIcon />,          path: "/users" },
-  { text: "Analytics", icon: <InsightsRoundedIcon />,       path: "/analytics" },
+  { text: "About", icon: <InsightsRoundedIcon />,       path: "/about" },
   { text: "Settings",  icon: <SettingsRoundedIcon />,       path: "/settings" },
 ];
 

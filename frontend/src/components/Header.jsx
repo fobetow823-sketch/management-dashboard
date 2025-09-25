@@ -235,8 +235,8 @@ export default function Header() {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* Left side: Title */}
         <Typography
-          variant="h4"
-          sx={{ fontWeight: 700, color: "#4FD1C5" }}
+          variant="h5"
+          sx={{ fontWeight: 600, color: "#4FD1C5" }}
         >
         Management Dashboard
         </Typography>
